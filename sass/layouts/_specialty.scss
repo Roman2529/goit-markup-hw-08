@@ -1,3 +1,4 @@
+
 .specialty .specialty-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -23,4 +24,10 @@
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+
+//phone:
+.section.specialty {
+  display: none;
 }

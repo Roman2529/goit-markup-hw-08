@@ -4,14 +4,30 @@
   height: 45px;
 }
 .section-list.customers-icon {
-  align-items: center; 
-  justify-content: center; 
+ 
+  // align-items: center; 
+  // justify-content: center; 
+
+  //phone:
+  display: flex;
+  flex-wrap: wrap;
 }
-.customers-item:not(:last-child) {
-  margin-right: 30px;
+
+// .customers-item:not(:last-child) {
+//   margin-right: 30px;
+// }
+  //phone:
+.customers-item:nth-child(-1n + 4) {
+  margin-bottom: 30px;
+}
+  
+
+//phone:
+.customers-item:nth-child(2n + 1) {
+margin-right: 30px;
 }
 .customers-link {
-  width: 170px;
+  // width: 170px;
   height: 90px;
   display: flex;
   align-items: center; 
@@ -19,6 +35,9 @@
   border: solid 1px;
   color: inherit;
   border-radius: 4px;
+
+  //phone:
+  width: 210px;
 }
 .customers-link:hover .icon-logo,
 .customers-link:focus .icon-logo {

@@ -1,19 +1,28 @@
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
+
+
+//phone:
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .section-list {
   
-  display: flex;
+  // display: flex;
   padding-left: 0px;
 } 
 .section-title {
   color: $title-text-color;
-
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  // font-size: 36px;
+  // line-height: 1.17;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
+
+  //phone:
+  font-size: 28px;
+  line-height: 1.17;
+  margin-bottom: 30px;
 }
