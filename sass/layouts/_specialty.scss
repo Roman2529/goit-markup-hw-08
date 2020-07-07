@@ -27,7 +27,10 @@
 }
 
 
-//phone:
-.section.specialty {
-  display: none;
+
+
+@media screen and (max-width: 1199px) {
+  .section.specialty {
+    display: none;
+  }
 }
