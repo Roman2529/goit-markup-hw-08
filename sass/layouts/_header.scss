@@ -163,6 +163,9 @@
     font-size: 12px;
     line-height: 1.16;
   }
+  .container.header {
+    justify-content: space-between;
+  }
   .site-nav .link {
     display: block;
     font-size: 14px;
@@ -170,6 +173,33 @@
   }
   .header-button {
     display: none;
+  }
+  .auth-nav {
+    display: block;
+    margin-left: 0;
+  }
+  .site-nav .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .link.link-current::after {
+    top: 33px;
+  }
+  .site-nav .item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .site-nav {
+    display: flex;
+  }
+  .header-menu {
+    display: contents;
+  }
+  .adress:first-child {
+    margin-bottom: 10px;
   }
 }
 
@@ -210,6 +240,9 @@
   }
   .header-button {
     display: none;
+  }
+  .header-menu {
+    display: contents;
   }
 
 }
