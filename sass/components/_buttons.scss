@@ -38,8 +38,13 @@
   flex-wrap: wrap;
   padding-bottom: 40px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     justify-content: center;
+    padding-bottom: 14px;
+
+  }
+
+  @media screen and (min-width: 1200px) {
     padding-bottom: 34px;
   }
 

@@ -45,8 +45,20 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 768px) and (max-width:1199px) {
+  .advantages-item {
+    width: calc((100% - 30px) / 2) ;
+  }
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .advantages .advantages-item:nth-child(2n + 1) {
+    margin-right: 30px;
+  }
+  .advantages .advantages-item:nth-child(-n + 2) {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {

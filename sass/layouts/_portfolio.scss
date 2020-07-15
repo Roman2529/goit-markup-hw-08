@@ -100,7 +100,15 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+  .portfolio-item {
+    width: 354px;
+  }
+  .portfolio-list .portfolio-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .portfolio-list .portfolio-item:nth-child(2n) {
+    margin-right: 0;
+  }
 }
 
 

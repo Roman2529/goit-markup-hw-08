@@ -65,8 +65,23 @@
 
 }
 
-@media screen and (min-width: 768px) {
-  
+@media screen and (min-width: 768px) and (max-width:1199px) {
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+   .team-item {
+     width: calc((100% - 30px) / 2);
+   }
+   .team-item:nth-child(2n + 1) {
+     margin-right: 30px;
+   }
+   .team-item:nth-child(-n + 2) {
+     margin-bottom: 30px;
+   }
+   .icon-list {
+     justify-content: center;
+   }
 }
 
 @media screen and (min-width: 1200px) {

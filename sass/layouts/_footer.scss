@@ -103,7 +103,23 @@
   
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1199px){
+  .footer-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-first-block {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-right: 60px;
+  }
+  .footer-secondary-block {
+    text-align: center;
+  }
+  .input-footer {
+    margin-bottom: 20px;
+  }
 
 
 }
